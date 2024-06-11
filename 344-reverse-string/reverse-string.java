@@ -6,8 +6,10 @@ class Solution {
         while(i<j)
         {
             temp = s[i];
-            s[i++] = s[j];
-            s[j--] = temp;
+            s[i] = s[j];
+            s[j] = temp;
+            i++;
+            j--;
 
         }
         
