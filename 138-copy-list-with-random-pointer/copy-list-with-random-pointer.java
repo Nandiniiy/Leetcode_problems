@@ -50,3 +50,6 @@ class Solution {
         return newHead;
     }
 }
+
+//space complexity O(1)
+//time complexity O(n)
